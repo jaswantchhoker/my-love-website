@@ -1,0 +1,122 @@
+
+h1 {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  text-align: center;
+}
+
+span{color: red;}
+
+body {
+  font-family: 'Tektur', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+
+
+.parafirst {
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Image floated so text wraps around it */
+.para-img {
+  width: 250px;        /* controls image width */
+  height: auto;        /* keeps aspect ratio */
+  float: left;         /* makes text embed around image */
+  margin: 0 20px 15px 0;
+  border-radius: 12px;
+}
+
+/* Clear float after paragraph */
+.parafirst::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  font-family: 'Tektur', sans-serif;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 span {
+  color: crimson;
+}
+
+/* First section */
+.parafirst {
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.para-img {
+  width: 300px;
+  float: left;
+  margin: 0 20px 15px 0;
+  border-radius: 12px;
+}
+
+/* Clear float */
+.parafirst::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Insta section */
+.insta-section {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 700px;
+}
+
+/* 25% of first image size */
+.insta-img {
+  width: 75px; /* 25% of 300px */
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Different font for Insta text */
+.insta-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+/* First meet section */
+.firstmeet {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.firstmeet img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+.firstmeet p {
+  margin-top: 15px;
+}
+
+.gallery-btn {
+  text-decoration: none;
+  padding: 12px 20px;
+  background: #ff6f91;
+  color: white;
+  border-radius: 25px;
+  font-size: 18px;
+}

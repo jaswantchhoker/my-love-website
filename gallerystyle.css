@@ -1,0 +1,38 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: crimson;
+}
+
+/* Gallery grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+    gap: 20px; /* space between images */
+    max-width: 600px; /* optional: limit gallery width */
+    margin: auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
